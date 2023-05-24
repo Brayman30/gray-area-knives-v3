@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col children:">
+    <div class="flex flex-col children:py-10">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua. Lacus vel facilisis volutpat est velit egestas dui id ornare. Orci phasellus egestas tellus rutrum
             tellus pellentesque. In est ante in nibh mauris. Eu turpis egestas pretium aenean pharetra magna. Nibh venenatis
