@@ -1,4 +1,5 @@
 <template>
+    <title>Gray Area Knives | Home</title>
     <article class="flex flex-col children:py-10 children:px-16">
         <h1>Lorem Ipsum</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
