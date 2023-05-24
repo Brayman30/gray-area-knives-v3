@@ -1,5 +1,11 @@
+<script setup>
+import { TopNavbar } from "#components";
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+    <div>
+        <TopNavbar />
+    </div>
 </template>
+
+<style></style>
