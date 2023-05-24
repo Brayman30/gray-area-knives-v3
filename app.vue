@@ -5,6 +5,7 @@ import { TopNavbar } from "#components";
 <template>
     <div>
         <TopNavbar />
+        <NuxtPage />
     </div>
 </template>
 

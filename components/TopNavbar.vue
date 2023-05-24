@@ -13,20 +13,9 @@
                 </div>
                 <!-- Pages-->
                 <ul class="flex flex-row px-1 items-center">
-                    <li>
-                        <NuxtLink
-                            class="hover:bg-opacity-20 hover:text-primary-600 px-2"
-                            to="/"
-                        >
-                            Home
-                        </NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink
-                            class="hover:bg-opacity-20 hover:text-primary-600 px-2"
-                            to="/about"
-                        >
-                            About Us
+                    <li v-for="(link, text) in links" :key="text" :value="link">
+                        <NuxtLink class="hover:text-primary-600 px-2" :to="link">
+                            {{ text }}
                         </NuxtLink>
                     </li>
                 </ul>
@@ -34,3 +23,18 @@
         </div>
     </nav>
 </template>
+<script lang="js">
+export default {
+    data() {
+        return {
+            links: {
+                'Home': '/',
+                'About': '/about',
+                'Portfolio': '/portfolio',
+                'The Making Process': '/making',
+                'Shop': '/shop'
+            }
+        }
+    },
+}
+</script>
