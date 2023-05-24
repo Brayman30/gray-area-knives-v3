@@ -6,16 +6,16 @@
             <div class="flex justify-around flex-grow">
                 <!-- Logo-->
                 <div class="flex items-center py-4 px-2">
-                    <a class="hover:hover:bg-opacity-20 hover:bg-gray-50">
+                    <NuxtLink to="/">
                         <img class="w-14" src="/img/logo.png" />
-                    </a>
+                    </NuxtLink>
                     <span class="pl-5 text-2xl">Gray Area Knives</span>
                 </div>
                 <!-- Pages-->
                 <ul class="flex flex-row px-1 items-center">
                     <li>
                         <NuxtLink
-                            class="hover:bg-opacity-20 hover:bg-gray-50 hover:text-primary-600 px-2"
+                            class="hover:bg-opacity-20 hover:text-primary-600 px-2"
                             to="/"
                         >
                             Home
@@ -23,7 +23,7 @@
                     </li>
                     <li>
                         <NuxtLink
-                            class="hover:bg-opacity-20 hover:bg-gray-50 hover:text-primary-600 px-2"
+                            class="hover:bg-opacity-20 hover:text-primary-600 px-2"
                             to="/about"
                         >
                             About Us
