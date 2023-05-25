@@ -31,7 +31,6 @@
                 </ul>
             </div>
         </div>
-
     </nav>
 </template>
 <script lang="js">
