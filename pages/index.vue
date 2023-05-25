@@ -1,5 +1,8 @@
 <template>
     <title>Gray Area Knives | Home</title>
+    <div class="flex justify-center items-center bg-gradient-to-tl from-primary-300 to-primary-500 w-full min-h-[88vh]">
+        <p class="text-primary-950 text-[6rem] text-center font-italic px-60">Quality handmade knives since 2014!</p>
+    </div>
     <article class="flex flex-col children:py-10 children:px-16">
         <h1>Lorem Ipsum</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
@@ -84,3 +87,6 @@
 
     </article>
 </template>
+
+<script>
+</script>

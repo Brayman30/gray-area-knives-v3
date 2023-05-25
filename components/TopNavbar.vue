@@ -1,26 +1,37 @@
 <template>
     <nav>
         <!-- Desktop Menu -->
-        <div class="bg-gray-300 flex justify-around">
+        <div class="bg-gray-200 flex justify-around">
             <!-- Menu-->
-            <div class="flex justify-around flex-grow">
+            <div class="flex justify-around flex-grow min-h-[12vh]">
                 <!-- Logo-->
-                <div class="flex items-center py-4 px-2">
+                <div class="flex items-center py-3 px-2">
                     <NuxtLink to="/">
-                        <img class="w-14" src="/img/logo.png" />
+                        <img class="w-16" src="/img/logo.png" />
                     </NuxtLink>
-                    <span class="pl-5 text-2xl">Gray Area Knives</span>
+                    <span class="pl-4 text-5xl font-bold">Gray Area Knives</span>
                 </div>
                 <!-- Pages-->
-                <ul class="flex flex-row px-1 items-center">
-                    <li v-for="(link, text) in links" :key="text" :value="link">
-                        <NuxtLink class="hover:text-primary-600 px-2" :to="link">
-                            {{ text }}
-                        </NuxtLink>
+                <ul class="flex flex-row px-1 items-center text-xl hover:children:text-primary-500 children:px-4">
+                    <li class="not-children underline font-semibold text-primary-500">
+                        <NuxtLink to="/">Home</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/about">About</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/portfolio">Portfolio</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/bts">Behind the Scenes</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/shop">Shop</NuxtLink>
                     </li>
                 </ul>
             </div>
         </div>
+
     </nav>
 </template>
 <script lang="js">
