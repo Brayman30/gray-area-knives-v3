@@ -24,12 +24,6 @@
     </nav>
 </template>
 
-<style>
-.router-link-active {
-    @apply underline font-semibold text-primary-500
-}
-</style>
-
 <script lang="js">
 // console.log(this.$parent.$vnode.tag)
 export default {
