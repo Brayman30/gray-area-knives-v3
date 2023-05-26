@@ -1,21 +1,7 @@
-# Nuxt 3 Minimal Starter
+# Gray Area Knives New Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install
-```
+This Project uses the Nuxt.js Meta-framework for Vue.js.
+Currently in [Beta](https://beta.grayareaknives.com)
 
 ## Development Server
 
