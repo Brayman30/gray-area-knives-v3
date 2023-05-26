@@ -1,6 +1,14 @@
+import nuxtConfig from "./nuxt.config";
 import defaultTheme from "tailwindcss/defaultTheme";
 
 export default {
+    purge: {
+    content(defaultContents) {
+      return defaultContents
+        .map((path) => join(nuxtConfig.srcDir, path))
+        .map((file) => file.replace(".js", ".ts"));
+    }
+  }
     plugins: [require("tailwind-children", "@tailwindcss/typography")],
     theme: {
         extend: {
