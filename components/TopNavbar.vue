@@ -13,38 +13,45 @@
                 </div>
                 <!-- Pages-->
                 <ul class="flex flex-row px-1 items-center text-xl hover:children:text-primary-500 children:px-4">
-                    <li class="not-children underline font-semibold text-primary-500">
-                        <NuxtLink to="/">Home</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/about">About</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/portfolio">Portfolio</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/bts">Behind the Scenes</NuxtLink>
-                    </li>
-                    <li>
-                        <NuxtLink to="/shop">Shop</NuxtLink>
+                    <li v-for="link in links" :key="link.location">
+                        <NuxtLink :to="link.location">
+                            {{ link.text }}
+                        </NuxtLink>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 </template>
+
 <script lang="js">
+// console.log(this.$parent.$vnode.tag)
 export default {
     data() {
         return {
-            links: {
-                'Home': '/',
-                'About': '/about',
-                'Portfolio': '/portfolio',
-                'The Making Process': '/making',
-                'Shop': '/shop'
-            }
+            links: [
+                {
+                    location: '/',
+                    text: 'Home'
+                },
+                {
+                    location: '/about',
+                    text: 'About'
+                },
+                {
+                    location: '/portfolio',
+                    text: 'Portfolio'
+                },
+                {
+                    location: '/bts',
+                    text: 'Behind The Scenes'
+                },
+                {
+                    location: '/shop',
+                    text: 'Shop'
+                }
+            ]
         }
-    },
+    }
 }
 </script>

@@ -1,4 +1,5 @@
 {
     "javascript.validate.enable": false,
     "tslint.jsEnable": false,
+    "vue.lint.unknownAtRules": "ignore"
 }

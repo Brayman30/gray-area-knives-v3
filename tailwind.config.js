@@ -1,7 +1,18 @@
+import nuxtConfig from "./nuxt.config.js";
 import defaultTheme from "tailwindcss/defaultTheme";
 
 export default {
-    plugins: [require("tailwind-children", "@tailwindcss/typography")],
+    plugins: [
+        require("tailwind-children", "@tailwindcss/typography"),
+        plugin(function ({ addComponents, theme }) {
+        addComponents({
+            .router-link-active {
+                @apply underline font-semibold text-primary-500
+            }
+        })
+        })
+    ]
+},
     theme: {
         extend: {
             minHeight: {

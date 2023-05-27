@@ -5,6 +5,7 @@
     </div>
     <article class="flex flex-col children:py-10 children:px-16">
         <h1>Lorem Ipsum</h1>
+        <h2>Paragraph 1</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
             magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper. Et odio pellentesque diam
             volutpat. Nunc scelerisque viverra mauris in aliquam sem fringilla. Neque gravida in fermentum et sollicitudin
@@ -14,6 +15,7 @@
             turpis. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Bibendum neque egestas congue
             quisque egestas diam in arcu cursus. Lectus urna duis convallis convallis tellus id interdum velit. Euismod nisi
             porta lorem mollis aliquam ut porttitor leo a. Cursus sit amet dictum sit amet justo donec enim.</p>
+        <h2>Paragraph 2</h2>
         <p>Vulputate mi sit amet mauris commodo quis imperdiet massa tincidunt. Aliquam vestibulum morbi blandit cursus
             risus at. Odio ut sem nulla pharetra diam sit amet nisl. Id ornare arcu odio ut sem nulla pharetra. In
             pellentesque massa placerat duis ultricies lacus sed. Sapien pellentesque habitant morbi tristique senectus.
@@ -24,6 +26,7 @@
             adipiscing commodo. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus. Bibendum est
             ultricies integer quis auctor elit sed vulputate. Sem nulla pharetra diam sit amet nisl suscipit adipiscing.
             Morbi tristique senectus et netus et malesuada. Sed sed risus pretium quam vulputate dignissim suspendisse.</p>
+        <h2>Paragraph 3</h2>
         <p>Suspendisse interdum consectetur libero id faucibus nisl. Facilisi morbi tempus iaculis urna. Dictum non
             consectetur a erat. Massa placerat duis ultricies lacus sed. Nisi porta lorem mollis aliquam. Iaculis nunc sed
             augue lacus viverra vitae congue eu consequat. Id consectetur purus ut faucibus. Cursus in hac habitasse platea.
@@ -32,11 +35,13 @@
             et magnis. Lacus suspendisse faucibus interdum posuere lorem. Faucibus interdum posuere lorem ipsum dolor sit
             amet consectetur adipiscing. Aliquam ultrices sagittis orci a scelerisque. Nec ultrices dui sapien eget mi
             proin.</p>
+        <h2>Paragraph 4</h2>
         <p>In arcu cursus euismod quis viverra. Sit amet commodo nulla facilisi nullam. Facilisi nullam vehicula ipsum a
             arcu cursus. Placerat duis ultricies lacus sed turpis. Purus faucibus ornare suspendisse sed nisi. Ipsum nunc
             aliquet bibendum enim. Feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat. Libero justo
             laoreet sit amet cursus sit amet. Nunc consequat interdum varius sit amet mattis vulputate enim. Adipiscing enim
             eu turpis egestas pretium.</p>
+        <h2>Paragraph 5</h2>
         <p>Amet porttitor eget dolor morbi non arcu risus quis. Leo urna molestie at elementum eu facilisis sed odio morbi.
             Urna duis convallis convallis tellus id. Egestas diam in arcu cursus euismod. Adipiscing enim eu turpis egestas
             pretium aenean pharetra. Eget nunc lobortis mattis aliquam faucibus purus in massa tempor. Aliquet nibh praesent
@@ -44,6 +49,7 @@
             ultricies leo integer malesuada nunc vel. Eu tincidunt tortor aliquam nulla facilisi. Sed euismod nisi porta
             lorem. Nulla facilisi cras fermentum odio eu. Duis ultricies lacus sed turpis tincidunt id aliquet risus
             feugiat.</p>
+        <h2>Paragraph 6</h2>
         <p>Morbi tristique senectus et netus et. Eu ultrices vitae auctor eu augue. Dis parturient montes nascetur ridiculus
             mus mauris vitae. Et molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Pulvinar elementum integer
             enim neque volutpat ac tincidunt vitae. Sit amet cursus sit amet dictum. Amet purus gravida quis blandit turpis
@@ -53,6 +59,7 @@
             massa. A lacus vestibulum sed arcu non odio euismod. Interdum velit euismod in pellentesque massa placerat duis
             ultricies. Sagittis eu volutpat odio facilisis. Placerat orci nulla pellentesque dignissim enim sit amet
             venenatis. Faucibus turpis in eu mi bibendum. Vestibulum lorem sed risus ultricies.</p>
+        <h2>Paragraph 7</h2>
         <p>Amet porttitor eget dolor morbi non arcu risus quis varius. Porttitor lacus luctus accumsan tortor posuere ac.
             Lobortis scelerisque fermentum dui faucibus in ornare quam. Quam quisque id diam vel quam. Amet nisl purus in
             mollis nunc sed id semper. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Eu facilisis sed odio
@@ -63,6 +70,7 @@
             posuere lorem ipsum. Interdum consectetur libero id faucibus nisl. Id eu nisl nunc mi. Sit amet mattis vulputate
             enim nulla aliquet porttitor lacus luctus. Diam volutpat commodo sed egestas egestas fringilla phasellus
             faucibus scelerisque.</p>
+        <h2>Paragraph 8</h2>
         <p>Egestas dui id ornare arcu odio ut sem nulla pharetra. Morbi tempus iaculis urna id volutpat lacus laoreet non
             curabitur. Nulla posuere sollicitudin aliquam ultrices. Aenean et tortor at risus viverra adipiscing. Maecenas
             ultricies mi eget mauris pharetra et ultrices neque ornare. Euismod lacinia at quis risus sed. Massa eget
@@ -73,12 +81,14 @@
             montes nascetur. Arcu dui vivamus arcu felis bibendum. Est sit amet facilisis magna. Non consectetur a erat nam
             at lectus urna. Porttitor eget dolor morbi non arcu risus quis. Elementum curabitur vitae nunc sed velit
             dignissim sodales ut.</p>
+        <h2>Paragraph 9</h2>
         <p>Enim nunc faucibus a pellentesque sit amet. Scelerisque viverra mauris in aliquam sem fringilla ut morbi
             tincidunt. Ullamcorper morbi tincidunt ornare massa eget. Sem nulla pharetra diam sit amet nisl suscipit
             adipiscing bibendum. Cras pulvinar mattis nunc sed blandit libero volutpat sed cras. Id porta nibh venenatis
             cras sed felis eget velit. Ultrices dui sapien eget mi. Non tellus orci ac auctor augue mauris augue neque
             gravida. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget. Tristique senectus et netus et
             malesuada fames ac. Arcu felis bibendum ut tristique et egestas quis ipsum suspendisse.</p>
+        <h2>Paragraph 10</h2>
         <p>Tellus mauris a diam maecenas. In egestas erat imperdiet sed euismod nisi porta lorem. Malesuada fames ac turpis
             egestas integer eget aliquet. Sit amet volutpat consequat mauris nunc congue nisi. Odio pellentesque diam
             volutpat commodo. Volutpat diam ut venenatis tellus in metus. Enim facilisis gravida neque convallis a cras
