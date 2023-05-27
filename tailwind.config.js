@@ -5,14 +5,15 @@ export default {
     plugins: [
         require("tailwind-children", "@tailwindcss/typography"),
         plugin(function ({ addComponents, theme }) {
-        addComponents({
-            .router-link-active {
-                @apply underline font-semibold text-primary-500
-            }
-        })
-        })
-    ]
-},
+            addComponents({
+                ".router-link-active": {
+                    textDecoration: theme("underline"),
+                    fontWeight: theme("font-semibold"),
+                    color: theme("primary.500"),
+                },
+            });
+        }),
+    ],
     theme: {
         extend: {
             minHeight: {
